@@ -1,0 +1,18 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "server": "node server/index.js",
+    "live_reload": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  }
+}
