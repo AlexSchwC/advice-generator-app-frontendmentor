@@ -5,14 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "node server/index.js",
-    "live_reload": "nodemon server/index.js"
+    "build": "node server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^0.26.1",
-    "express": "^4.17.3"
+    "axios": "^0.26.1"
   }
 }
